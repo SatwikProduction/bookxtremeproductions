@@ -127,12 +127,11 @@ body, html {
     .element {
         display: none;
     }
-    .clients{
-        
+    .clients {
         display: none;
     }
-    .client{
-        
+    .client {
         display: block;
     }
 }
+
