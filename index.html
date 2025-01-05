@@ -32,11 +32,13 @@
         <span  class="ml-3 text-xl">
             <!-- <a class="text-white ml-3 text-xl" href="#">Bookxtremeproductions</a></span> -->
       </a>
-      <nav id="impact" class="akaya md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <nav id="impact" class="client element  akaya md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <a href="bookus.html" class="mr-5 hover:text-gray-900">Book Us</a>
         <a href="extreme.html" class="mr-5 hover:text-gray-900">ExtremeXplore</a>
         <a href="satwik.html" class="mr-5 hover:text-gray-900">Satwik Production</a>
         <a href="about.html" class="mr-5 hover:text-gray-900">About us</a>
+        <a href="refund.html" class="mr-5 hover:text-gray-900">Cancelation & Refund Policies</a>
+        <a href="tc.html" class="mr-5 hover:text-gray-900">Terms & Conditions</a>
       </nav>
       <a href="index.html#contact" class="text-black inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Contact us
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -79,156 +81,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
 
    }
-
-
-
-
-
-
-
-
-
-
-    body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    /* background-image: url("BEP Background.png"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
- .bg{
-    filter: blur(4px);
-    backface-visibility: initial;
-}
-
-
-
-
-/* General Reset */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Hero Section with Animation */
-.hero-section {
-    width: 100%;
-    height: 100vh; /* Takes only the viewport height */
-    position: relative;
-    overflow: hidden;
-}
-
-.background {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    /* background: url('BEP\ Background.png') no-repeat center center/cover; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.background image{
-    position: fixed;
-}
-
-/* Overlay for darkening the image */
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-/* Text container */
-.text-container {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    margin-top: 25vh;
-}
-
-/* Animated text */
-.animated-text {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #fff;
-    animation: textAnimation 3s ease-in-out ;
-    padding-bottom: 800px;
-
-    /* text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #000000; */
-}
-
-/* Text animation */
-@keyframes textAnimation {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    50% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-}
-
-/* Main Content */
-.content {
-    padding: 20px;
-    
-}
-
-.content h2 {
-    font-size: 2rem;
-    color: #333;
-}
-
-.content p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-}
- 
-
-/* Default: Element is visible */
-.element {
-    display: block; /* or your desired display property */
-}
-.clients{
-    
-    display: block;
-}
-.client{
-    
-    display: none;
-}
-
-/* Hide on devices with a max-width of 768px (mobile devices) */
-@media (max-width: 1022px) {
-    .element {
-        display: none;
-    }
-    .clients{
-        
-        display: none;
-    }
-    .client{
-        
-        display: block;
-    }
-}
-
-    
 </style>
 
 
